@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllSuite">
+  <test thread-count="5" name="AllTest">
+    <classes>
+      <class name="firstTestPk.FirstTest"/>
+      <class name="secondTestPk.SecondTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
