@@ -28,6 +28,8 @@ public class FirstTest {
 		googlepage.sendKeys("Testing");
 		googlepage.sendKeys(Keys.ENTER);
 		
+		int i = 1/0;
+		
 		// Screenshot code
 		
 		File src = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
